@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SabineZilde/L9.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SabineZilde/L9/issues"
+  },
+  "homepage": "https://github.com/SabineZilde/L9#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
