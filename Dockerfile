@@ -12,4 +12,4 @@ RUN npm install
 
 EXPOSE 8070
 
-ENTRYPOINT [ "tail", "-f", "/dev/null" ]
+ENTRYPOINT [ "tail", "-f", "/dev/null" ] 

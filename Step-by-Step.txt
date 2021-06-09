@@ -1,0 +1,35 @@
+1. Create dev evnironment. Place where to wrok and have the tools that you need.
+    
+    - docker-compose.yml
+    - Dockerfile
+    - start the container (docker-compose up -d) 
+    - connect to it (docker-compose exec api sh)
+
+2. Create base of the node app (npm init)
+
+    - in file package.json add: "type": "module", (for enabling ES6 modules method)
+    - create folder src and inside it create file index.js
+
+3. Prepare out dependencies.
+
+    - install Express JS (npm install express)
+    (it will create package-lock.json file and node_modules folder)
+
+4. Update .gitignore
+
+     - create file .gitignore in root folder
+     - add "node_modules" for github to ignore
+
+5. Run our application
+   
+    - run nodemon -L src/index.js or nodemon src/index.js for mac
+    - Or write a script to our package.json to run this command for us
+
+    replace "test":.... under the "scripts"
+    with "dev": "nodemon src/index.js"
+    
+    - now you can run it with npm run dev
+
+6. Write the app
+
+7. Test endpoints in Postman
